@@ -1,0 +1,13 @@
+{
+  "name": "discord-clock-bot",
+  "version": "1.0.0",
+  "main": "clockbot.js",
+  "scripts": {
+    "start": "node clockbot.js",
+    "register": "node registerCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.0"
+  }
+}
