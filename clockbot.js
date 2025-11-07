@@ -83,7 +83,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
   // Stop any previous interval
   if (clockInterval) clearInterval(clockInterval);
-  clockInterval = setInterval(sendOrUpdateClock, 5000);
+  clockInterval = setInterval(sendOrUpdateClock, 60000);
   await sendOrUpdateClock();
 });
 
